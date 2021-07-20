@@ -1,0 +1,5 @@
+amplify/
+src/Api.ts
+src/lib/graphql/mutations.ts
+src/lib/graphql/queries.ts
+src/lib/graphql/subscriptions.ts
