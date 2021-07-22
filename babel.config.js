@@ -10,6 +10,7 @@ module.exports = {
                     config: ['./src/config'],
                     components: ['./src/components'],
                     library: ['./src/library'],
+                    navigation: ['./src/navigation'],
                     res: ['./src/res'],
                     screens: ['./src/screens'],
                 },

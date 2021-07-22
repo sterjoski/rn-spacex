@@ -1,4 +1,4 @@
-const pathGroups = ['components', 'config', 'library', 'res', 'screens']
+const pathGroups = ['components', 'config', 'library', 'navigation', 'res', 'screens']
 
 module.exports = {
     parser: '@typescript-eslint/parser',

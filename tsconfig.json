@@ -25,6 +25,7 @@
         "components/*": ["./components/*"],
         "config/*": ["./config/*"],
         "library/*": ["./library/*"],
+        "navigation/*": ["./navigation/*"],
         "res/*": ["./res/*"],
         "screens/*": ["./screens/*"],
     },

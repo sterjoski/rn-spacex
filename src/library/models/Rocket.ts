@@ -10,6 +10,7 @@ class Rocket {
     country: string
     company: string
     description: string
+    image: string
 
     constructor(data: any) {
         this.id = data.id || '-'
@@ -23,6 +24,7 @@ class Rocket {
         this.country = data.country
         this.company = data.company
         this.description = data.description
+        this.image = data.flickrImages?.[0] ?? ''
     }
 }
 

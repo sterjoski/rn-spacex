@@ -2,7 +2,7 @@ import { API } from 'library/api/api'
 import CrewMember from 'library/models/CrewMember'
 
 class CrewService {
-    async getRockets(): Promise<CrewMember[]> {
+    async getCrewMembers(): Promise<CrewMember[]> {
         const path = `/crew`
 
         const { data } = await API.get(path)

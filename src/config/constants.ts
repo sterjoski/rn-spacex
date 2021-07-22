@@ -4,8 +4,9 @@ const hour = 60 * minute
 
 export enum Screen {
     Rockets = 'Rockets',
-    CrewMembers = 'CrewMembers',
-    CrewMember = 'CrewMember',
+    CrewMembersStack = 'CrewMembersStack',
+    CrewMembers = 'Crew Members',
+    CrewMember = 'Crew Member',
 }
 
 export enum CacheDuration {
